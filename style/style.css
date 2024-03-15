@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins&display=swap');
+
+.sombra{
+    filter:drop-shadow(0em 30px 20px #9bd2f4)
+}
+
+
+h2{
+    font-family: Madimi One;
+    font-size: 40px;
+    color: white;
+}
+
+h3{
+    font-family: Madimi One;
+}
+
+.navbar-brand{
+    font-family: Madimi One;
+    color: #78A083;
+    font-size: 50px;
+}
+
+.navbar-brand:hover{
+    color: #7f8b93;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.iconnav{
+    color: #7f8b93;
+}
+
+.iconnav:hover{
+    color: #78A083;
+}
+
+.inicio{
+    background:linear-gradient(to right, #35374B, #344955);
+    clip-path: polygon(48% 95%, 100% 38%, 100% 0, 0 0, 0% 38%);
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.btn-cv{
+    background: none;
+    width: fit-content;
+    padding: 5px 40px;
+    border: 3px solid #78A083;
+    color:#fff;
+    background:linear-gradient(to right, #35374B, #344955);
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btn-cv:hover{
+    transform: scale(1.5);
+}
+
+#image-header{
+    max-width: 75%;
+}
+
+/* SECCION SERVICIOS */
+
+
+#servicios{
+    height: 100%;
+}
+.icono{
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.icono .circulo{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+}
+
+.color1{
+    background: linear-gradient(#35374B, #78A083);
+}
+.color2{
+    background: linear-gradient(#35374B, #50727B);
+}
+.color3{
+    background: linear-gradient(#344955, #78A083);
+}
+
+.card-body p{
+    color: #777272;
+    font-size: 15px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+
+/* SECCION SKILLS */
+#skills{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(to right, #35374B, #344955);
+}
+
+.score{
+    padding: 10px;
+    margin: auto 0;
+    color: white;
+}
+
+.score .box{
+    width: 100%;
+}
+
+.score .box h2{
+    display: block;
+    text-align: center;
+}
+
+.score .box .chart{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin: auto;
+    line-height: 160px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* CANVAS GENERADOR AUTOMATICAMENTE POR EASYPIE-CHARTS */
+.score .box canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* SECCION CONTACTO */
+#contacto{
+    padding-top: 100px;
+    height: 100vh;
+}
+.info{
+    margin-bottom: 30px;
+    border-left: 3px solid #8d8d8d;
+    padding-left: 8px;
+}
+
+.info a{
+    text-decoration: none;
+    color: #35374B;
+}
+
+.contacto input, .contacto textarea{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid #8d8d8d;
+    margin-bottom: 20px;
+    color: #35374B;
+    outline-color: #35374B;
+}
+
+.btn-contact{
+    background-color: none;
+    padding: 5px 40px;
+    border: #fff;
+    cursor: pointer;
+    color: #fff;
+    transition: .5s;
+}
+
+.btn-contact:hover{
+    transform: scale(1.1);
+    background-color: #35374B;
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 430px){
+    .navbar-brand{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .inicio{
+        background:linear-gradient(to right, #35374B, #344955);
+        clip-path: xywh(0 0px 100% 100% round 15% 0);
+        height: 100vh;
+        padding: 0 20px;
+    }
+    #servicios{
+        height: 100%;
+    }
+}
